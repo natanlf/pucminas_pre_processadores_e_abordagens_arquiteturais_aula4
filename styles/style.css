@@ -1,0 +1,25 @@
+/*@mixin flex-center($direction, $background) {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+    background: $background;
+}*/
+header, .contact {
+  height: 100vh;
+  color: rgb(58, 42, 42);
+  background: lightblue;
+}
+header button, .contact button {
+  background: rgb(182, 85, 153);
+}
+header button::after, .contact button::after {
+  content: "Helllloooo";
+}
+
+.contact {
+  background: lightcoral;
+  background: rgb(168, 58, 58);
+  width: 80%;
+}/*# sourceMappingURL=style.css.map */
