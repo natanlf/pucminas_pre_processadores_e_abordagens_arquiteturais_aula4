@@ -2,8 +2,10 @@
 @import './header';
 
 .contact {
-    @extend header;
-    background: lightcoral;
-    background: rgb(168, 58, 58);
+    @extend header;    
     width: 100% - 20%;
+}
+
+.contact-coral {
+    background: rgb(168, 58, 58);
 }

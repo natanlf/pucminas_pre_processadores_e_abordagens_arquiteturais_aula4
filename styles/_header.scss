@@ -9,12 +9,16 @@
 
 header {
     height: 100vh;
-    color: $text-color;
-    background: lightblue;
-    button {
-        background: $primary-btn;
+    .header-blue {
+        color: $text-color;
+        background: lightblue;
+    }
+    .button {
         &::after {
             content: "Helllloooo";
         }
+    }
+    .btn-primary {
+        background: $primary-btn;
     }
 }
